@@ -1,12 +1,26 @@
+.row {
+  /* margin-left: 1px; */
+  margin-left: 0.4px;
+}
+
 .row__posters {
   display: flex;
   gap: 5px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 10px;
+  cursor: pointer;
 }
+
+.row__posters::-webkit-scrollbar {
+   display: none;
+}
+
 .row__poster {
   object-fit: contain;
-  width: 100%;
+  /* width: 100%; */
   max-height: 100px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   transition: transform 450ms;
 }
 

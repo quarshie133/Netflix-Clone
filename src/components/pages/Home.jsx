@@ -1,13 +1,9 @@
-import React, { useState }from "react";
-import Cards from "./Cards";
-import items from "../../data";
+import React, { useState } from "react";
 import "../styles/Home.css";
+import SingleCard from "./SingleCard";
 
 function Home() {
-const [movies, setMovies] = useState(items)
-const [name, setName] = useState("Released in the Past Year");
  
-  
 
   return (
     <div className="homepage">
@@ -26,9 +22,7 @@ const [name, setName] = useState("Released in the Past Year");
       </div>
       <div className="container-fluid movie-app">
         <div className="row">
-          <Cards movie={movies}
-          title={name}
-          />
+          <SingleCard />
         </div>
       </div>
     </div>

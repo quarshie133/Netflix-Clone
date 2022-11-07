@@ -82,7 +82,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527339",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261125/netflix/films/suspense/prisoners/small_yvugxv.jpg",
@@ -90,7 +90,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527340",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261126/netflix/films/suspense/seven/small_ntiecd.jpg",
@@ -98,7 +98,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527341",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261105/netflix/films/suspense/zodiac/small_wx8vkw.jpg",
@@ -106,7 +106,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527342",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261105/netflix/films/suspense/shutter-island/small_xhhkt2.jpg",
@@ -114,7 +114,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527343",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261106/netflix/films/thriller/a-quiet-place/small_sl6sdj.jpg",
@@ -122,7 +122,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527344",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261121/netflix/films/romance/blue-valentine/small_mp8z5e.jpg",
@@ -130,7 +130,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527345",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261121/netflix/films/romance/la-la-land/small_kjligv.jpg",
@@ -138,7 +138,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527346",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261115/netflix/films/children/frozen/small_xik2kk.jpg",
@@ -146,7 +146,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527347",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261114/netflix/films/children/hotel-transylvania/small_mdpntl.jpg",
@@ -154,7 +154,7 @@ const items = [
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
     Year: "2019",
-    imdbID: "tt2527338",
+    imdbID: "tt2527348",
     Type: "movie",
     Poster:
       "https://res.cloudinary.com/ephraim/image/upload/v1667261114/netflix/films/children/spirited-away/small_jbdrit.jpg",
