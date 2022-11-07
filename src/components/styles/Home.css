@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* NAVIGATION BAR SECTION  */
+
+.logo {
+  width: 8rem;
+  height: 3rem;
+  top: 0px !important;
+  left: 0px !important;
+  position: fixed;
+  margin-left: 25px;
+}
+
+.navbar {
+  height: 8vh;
+  width: 100%;
+}
+
+.nav-item .btn-1 {
+  width: 6.5rem;
+  padding: 5px 5px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #e50914;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.nav-item .btn-1:hover {
+  background: #f40612;
+  color: #fff;
+}
+
+.nav-item .btn-2 {
+  width: 4.5rem;
+  height: 2rem;
+  padding: 9px;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #888;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 13px;
+  background: transparent;
+}
+
+.nav-item .btn-2:hover {
+  background-color: hsla(0, 0%, 59%, 0.3);
+}
+
+.nav-item,
+.btn-2,
+.btn-1 {
+  margin-left: -2%;
+}
+
+.nav-item-text {
+  letter-spacing: 0 !important;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.nav-left {
+  top: 0px !important;
+  right: 0px !important;
+  position: fixed;
+}
+
+/* CARD SECTION  */
+
+.homepage {
+  background-color: #181818;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  
+  color: #fff;
+}
+
+.text-section {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: block;
+}
+
+.homepage h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.text-section p {
+  word-spacing: 0.1em;
+  width: 100%;
+  /* line-height: 10px; */
+  /* line-break: 30px; */
+  /* letter-spacing: 0 !important; */
+}
+
+
+

@@ -1,15 +1,20 @@
+import React from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/layout/Navbar';
-import Card from "./components/layout/Card";
+import Home from './components/pages/Home'
+
+
 
 
 
 function App() {
+   
   return (
     <div>
-      <Navbar/>
-      <Card /> 
+      <Navbar />
+      <Home />
+     
     </div>
   );
 }
