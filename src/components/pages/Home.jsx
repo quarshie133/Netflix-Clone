@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Home.css";
-import SingleCard from "./SingleCard";
+import Row from "../pages/Row";
 
 function Home() {
- 
-
   return (
     <div className="homepage">
       <div className="text-section">
@@ -22,9 +20,14 @@ function Home() {
       </div>
       <div className="container-fluid movie-app">
         <div className="row">
-          <SingleCard />
+          <Row />
         </div>
       </div>
+    <div>
+      <h2>There's even more to watch.</h2>
+      <p>Nextflix has an extensive library of feature films, documentaries, TV shows, anime, award-wining Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+      <button className="btn">join now</button>
+    </div>
     </div>
   );
 }

@@ -3,6 +3,14 @@
   margin-left: 0.4px;
 }
 
+.row,
+h6 {
+  color: #fff;
+  font-size: 16px;
+  font-size: 500;
+  line-height: 22px;
+}
+
 .row__posters {
   display: flex;
   gap: 5px;
@@ -13,18 +21,37 @@
 }
 
 .row__posters::-webkit-scrollbar {
-   display: none;
+  display: none;
 }
 
 .row__poster {
   object-fit: contain;
   /* width: 100%; */
-  max-height: 100px;
-  /* margin-right: 10px; */
+  max-height: 170px;
+  margin-right: 10px;
+  margin-bottom: 30%;
   transition: transform 450ms;
 }
 
-
 .row__poster:hover {
-    transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.backdrop {
+  /* height: 30px;  */
+  background: linear-gradient(180deg, transparent 0, #181818);
+  filter: blur(8px);
+  pointer-events: none;
+  
+}
+
+.backdrop-1 {
+  background: linear-gradient(180deg, transparent 0, #181818);
+  bottom: 100%;
+  content: "";
+  height: 15em;
+  left: 0;
+  pointer-events: none;
+  filter: blur(8px);
+  right: 0;
 }

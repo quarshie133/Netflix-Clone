@@ -1,5 +1,92 @@
 /* NAVIGATION BAR SECTION  */
 
+.nav {
+  position: fixed;
+  top: -20px;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  padding: 20px;
+  z-index: 1;
+
+  justify-content: space-between;
+  background-color: #000;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 100px;
+  object-fit: contain;
+}
+
+ul li {
+  list-style: none;
+}
+
+.btn {
+  position: fixed;
+  right: 20px;
+  /* width: 6.5rem; */
+  object-fit: contain;
+}
+.btn-1 {
+  border: none;
+  background: transparent;
+  color: #fff;
+  margin-right: 10px;
+  letter-spacing: 0 !important;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.btn-2 {
+  width: 115px;
+  height: 2.3rem;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: #e50914;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn-2:hover {
+  background: #f40612;
+  color: #fff;
+}
+
+.btn-3 {
+  width: 90px;
+  height: 2.4rem;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+
+  text-transform: uppercase;
+  border: 1px solid #888;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 13px;
+  background: transparent;
+}
+
+.btn-3:hover {
+  background-color: hsla(0, 0%, 59%, 0.3);
+}
+
+/* 
 .logo {
   width: 8rem;
   height: 3rem;
@@ -74,7 +161,7 @@
   top: 0px !important;
   right: 0px !important;
   position: fixed;
-}
+} */
 
 /* CARD SECTION  */
 
@@ -85,13 +172,14 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  max-height: 400vh;
-  
+  /* max-height: 2000vh; */
+  height: 1000vh;
+
   color: #fff;
 }
 
 .text-section {
-  margin-top: 30px;
+  margin-top: 10rem;
   margin-left: 30px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   display: block;
@@ -109,6 +197,3 @@
   /* line-break: 30px; */
   /* letter-spacing: 0 !important; */
 }
-
-
-
