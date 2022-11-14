@@ -36,7 +36,7 @@ function Home() {
               much as you want, anytime you want.
             </span>
           </p>
-          <button className="btn">join now</button>
+          <button className="bottom-btn">join now</button>
         </div>
       </div>
     </div>
