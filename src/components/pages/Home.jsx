@@ -23,13 +23,13 @@ function Home() {
           <Row />
         </div>
       </div>
-      <div className="container p-4 fs-5 text-center card-section">
+      <div className="container-fluid p-1 text-center card-section">
         <div className="text-center">
           <h2 className="footer-text p-1 fs-2 ">There's even more to watch.</h2>
-          <p className="inner-text fs-5">
+          <p className="text-center inner-text fs-5 p-1">
             <span className="content1">
               Nextflix has an extensive library of feature films, documentaries,
-              TV{" "}
+              TV
             </span>
             shows, anime, award-wining Netflix originals, and more. Watch as
             <span className="content2">

@@ -1,8 +1,4 @@
-
-
-
 .row {
-  /* margin-left: 1px; */
   margin-left: 0.4px;
 }
 
@@ -29,10 +25,9 @@ h6 {
 
 .row__poster {
   object-fit: contain;
-  /* width: 100%; */
   max-height: 170px;
   margin-right: 10px;
-  margin-bottom: 30%;
+  margin-bottom: 22%;
   transition: transform 450ms;
 }
 
@@ -41,20 +36,19 @@ h6 {
 }
 
 .backdrop {
-  /* height: 30px;  */
   background: linear-gradient(180deg, transparent 0, #181818);
   filter: blur(8px);
   pointer-events: none;
-  
 }
 
 .backdrop-1 {
   background: linear-gradient(180deg, transparent 0, #181818);
   bottom: 100%;
   content: "";
-  height: 15em;
+  height: 14em;
   left: 0;
   pointer-events: none;
-  filter: blur(8px);
+  filter: blur(9px);
   right: 0;
 }
+
