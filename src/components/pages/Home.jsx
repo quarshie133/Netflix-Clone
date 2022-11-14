@@ -23,11 +23,22 @@ function Home() {
           <Row />
         </div>
       </div>
-    <div>
-      <h2>There's even more to watch.</h2>
-      <p>Nextflix has an extensive library of feature films, documentaries, TV shows, anime, award-wining Netflix originals, and more. Watch as much as you want, anytime you want.</p>
-      <button className="btn">join now</button>
-    </div>
+      <div className="container p-4 fs-5 text-center card-section">
+        <div className="text-center">
+          <h2 className="footer-text p-1 fs-2 ">There's even more to watch.</h2>
+          <p className="inner-text fs-5">
+            <span className="content1">
+              Nextflix has an extensive library of feature films, documentaries,
+              TV{" "}
+            </span>
+            shows, anime, award-wining Netflix originals, and more. Watch as
+            <span className="content2">
+              much as you want, anytime you want.
+            </span>
+          </p>
+          <button className="btn">join now</button>
+        </div>
+      </div>
     </div>
   );
 }
