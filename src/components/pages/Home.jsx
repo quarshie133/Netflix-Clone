@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import Row from "../pages/Row";
+import Footer from "../layout/Footer";
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
           <button className="bottom-btn">join now</button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
