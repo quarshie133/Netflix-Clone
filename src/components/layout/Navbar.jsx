@@ -1,12 +1,17 @@
 import React from "react";
-import logo from "../assests/Netflix-Logo.wine.svg";
+import logo from "../assests/logo.png";
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
+const location = useLocation();
+
   return (
     <div className="nav">
-      <img className="nav__logo" src={logo} alt="netflix Logo" />
-      {/* <h6 className="nav-item-text"></h6> */}
-
+      <Link to="/login">
+        <img className="nav__logo" src={logo} alt="netflix Logo" />
+        
+      </Link>
       <div className="btn">
         <ul>
           <li>
@@ -16,7 +21,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-    </div>
+  </div>
   );
 }
 
