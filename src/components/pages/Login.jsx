@@ -58,7 +58,8 @@ function Login({ setNavbar }) {
                 <span>Email address</span>
               </div>
               <div>
-                <button>Get Started 
+                <button>
+                  Get Started
                   <IoIosArrowForward />
                 </button>
               </div>
@@ -69,37 +70,66 @@ function Login({ setNavbar }) {
       <section>
         <div className="texts">
           <h1>Enjoy on your TV.</h1>
-          <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-          <div className="media s1">
-            <div>
-              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" />
-              <video autoPlay playsInline muted loop controls>
-                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4" />
-              </video>
-            </div>
+          <p>
+            Watch on Smart TVs, Playstation,
+            <span className="edit-text">
+              {" "}
+              Xbox, Chromecast, Apple TV, Blu-ray{" "}
+            </span>
+            <span className="edit-text">players, and more.</span>
+          </p>
+        </div>
+        <div className="media s1">
+          <div>
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" />
+            <video autoPlay playsInline muted loop controls>
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="texts">
+          <h1>Download your shows to watch offline.</h1>
+          <p>Save your favorites easily and always have something to watch.</p>
+        </div>
+        <div className="media">
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" />
+          <div className="download">
+            <img
+              src="	https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+              alt="image"
+            />
+            <span>Downloading...</span>
+            <img
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+              alt="gif"
+            />
           </div>
         </div>
       </section>
       <section>
         <div className="texts">
           <h1>Enjoy on your TV.</h1>
-          <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-          <div className="media"></div>
+          <p>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
         </div>
+        <div className="media"></div>
       </section>
       <section>
         <div className="texts">
           <h1>Enjoy on your TV.</h1>
-          <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-          <div className="media"></div>
+          <p>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
         </div>
-      </section>
-      <section>
-        <div className="texts">
-          <h1>Enjoy on your TV.</h1>
-          <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-          <div className="media"></div>
-        </div>
+        <div className="media"></div>
       </section>
     </div>
   );
