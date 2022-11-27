@@ -138,7 +138,6 @@ div.splash button:hover {
   background: #f40612;
 }
 
-
 /* VIDEO SECTION  */
 
 section {
@@ -161,6 +160,10 @@ section div.texts p {
   font-size: 1.625rem;
   font-weight: 400;
 }
+/* 
+section div.texts, .section-text {
+   margin-left: 40px;
+} */
 
 
 .edit-text::before {
@@ -172,9 +175,9 @@ section div.texts p {
   position: relative;
 }
 
-.media.s1 img{
-   width: 400px;
-} 
+.media.s1 img {
+  width: 400px;
+}
 
 .media.s1 video {
   width: 293px;
@@ -187,3 +190,31 @@ section:nth-child(even) div.texts {
   order: 2;
 }
 
+section div.media img.mobile {
+  width: 480px;
+  height: auto;
+  /* max-width: 100%; */
+}
+
+section div.download {
+  border: 2px solid #666;
+  border-radius: 15px;
+  padding: 10px;
+  height: 95px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  width: 340px;
+  left: 50%;
+  margin-left: -230px;
+  background-color: #000;
+  gap: 15px;
+  grid-template-columns: max-content 1fr max-content;
+}
+
+section div.download img {
+   height: 75px;
+   width: auto;
+}
