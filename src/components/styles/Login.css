@@ -118,6 +118,7 @@ div.splash input ~ span {
 div.splash input:focus {
   padding-top: 19px;
   padding-bottom: 11px;
+  color: #000;
 }
 
 div.splash input:focus ~ span {
@@ -148,6 +149,7 @@ section {
   align-items: center;
   background: #000;
   width: 100%;
+  border-top: 8px solid #222;
 }
 
 section div.texts h1 {
