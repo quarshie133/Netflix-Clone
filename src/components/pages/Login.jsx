@@ -1,10 +1,14 @@
 import React, { useEffect } from "react";
 import "../styles/Login.css";
-import logo from "../assests/logo.png";
 import { IoIosArrowForward } from "react-icons/io";
 import FooterSections from "./FooterSections";
+import LoginFooter from "../layout/LoginFooter";
 
 function Login({ setNavbar }) {
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
   useEffect(() => {
     setNavbar(true);
   }, []);
@@ -31,12 +35,12 @@ function Login({ setNavbar }) {
           </a>
         </div>
         <div>
-          <a href="/" className="button">
+          <a href="/" className="button" onClick={handleSubmit}>
             Sign In
           </a>
         </div>
       </header>
-      <div className="splash">
+      <div className="splash cta">
         <div className="background">
           <img
             src="https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/aa52f633-c82a-4198-967a-e93ab1a72d4f/GH-en-20221114-popsignuptwoweeks-perspective_alpha_website_small.jpg"
@@ -58,7 +62,7 @@ function Login({ setNavbar }) {
                 <span>Email address</span>
               </div>
               <div>
-                <button>
+                <button onClick={handleSubmit}>
                   Get Started
                   <IoIosArrowForward />
                 </button>

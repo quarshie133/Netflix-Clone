@@ -11,9 +11,9 @@ function Home() {
         <p>
           <span className="content1">
             Movies move us like nothing else can, whether they're scary, funny,
-            </span>
-            dramatic, romantic or anywhere in-between. So many titles, so much <span className="content2">to experience.</span>
-        
+          </span>
+          dramatic, romantic or anywhere in-between. So many titles, so much{" "}
+          <span className="content2">to experience.</span>
         </p>
       </div>
       <div className="container-fluid movie-app">

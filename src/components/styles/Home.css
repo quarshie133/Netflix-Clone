@@ -30,7 +30,6 @@ ul li {
 .btn {
   position: fixed;
   right: 20px;
-  /* width: 6.5rem; */
   object-fit: contain;
 }
 .btn-1 {
@@ -74,7 +73,6 @@ ul li {
   font-size: 13px;
   font-weight: 400;
   text-align: center;
-
   text-transform: uppercase;
   border: 1px solid #888;
   border-radius: 2px;
@@ -83,7 +81,6 @@ ul li {
   white-space: nowrap;
   line-height: 13px;
   background: transparent;
-
 }
 
 .btn-3:hover {
@@ -99,9 +96,7 @@ ul li {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  /* max-height: 900vh; */
   height: 100%;
-
   color: #fff;
 }
 
@@ -173,7 +168,7 @@ h2 {
 }
 
 .bottom-btn:hover {
-  background-image: linear-gradient(180deg,#e50914,#db0510);
-    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
-    color: #fff;
+  background-image: linear-gradient(180deg, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+  color: #fff;
 }

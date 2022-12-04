@@ -7,18 +7,21 @@
   color: #fff;
 }
 
-img {
-  /* max-width: 100%; */
-}
 /* LANDING PAGE WITH BACKGROUND IMAGE  */
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 26px 56px;
+  grid-template-columns: max-content 1fr;
+  padding: 26px 20px;
   position: absolute;
   width: 100%;
   z-index: 5;
+}
+
+@media screen and (min-width: 550px) {
+  header {
+    padding: 26px 56px;
+  }
 }
 
 header a.logo {
@@ -27,7 +30,13 @@ header a.logo {
 
 header .logo svg {
   fill: #e50914;
-  height: 37px;
+  height: 30px;
+}
+
+@media screen and (min-width: 550px) {
+  header .logo svg {
+    height: 37px;
+  }
 }
 
 header div + div {
@@ -48,17 +57,25 @@ div.splash {
 }
 
 div.splash div.gradient {
-  /* background-image: linear-gradient(to top, rgba(0,0,0,.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,.8) 100%); */
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   inset: 0;
 }
+
+div.splah div.background {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+}
+
 div.splash div.background img {
-  width: 100%;
+  max-width: 100%;
   opacity: 2;
+  object-fit: cover;
 }
 
 div.splash div.content {
+  padding: 95px 20px;
   max-width: 655px;
   position: absolute;
   inset: 0;
@@ -75,37 +92,64 @@ div.splash h2 div.splash h3 {
 }
 
 div.splash h1 {
-  font-size: 3.125rem;
+  font-size: 1.75rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 div.splash h2 {
-  font-size: 1.625rem;
+  font-size: 1.125rem;
   font-weight: 400;
   margin-top: 13px;
   margin-bottom: 29px;
 }
 
 div.splash h3 {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
 }
 
-div.splash form {
+@media screen and (min-width: 550px) {
+  div.splash h1 {
+    font-size: 3.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  div.splash h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 13px;
+    margin-bottom: 29px;
+  }
+
+  div.splash h3 {
+    font-size: 1.2rem;
+  }
+}
+
+div.cta form {
   position: relative;
-  display: grid;
-  margin: 20px;
-  grid-template-columns: 1fr max-content;
+  display: block;
+  margin: 20px 20px 0;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
 }
 
-div.splash input {
+@media screen and (min-width: 550px) {
+  div.cta form {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+  }
+}
+
+div.cta input {
   padding: 15px 10px;
   font-size: 1.2rem;
   width: 100%;
   outline: none;
 }
 
-div.splash input ~ span {
+div.cta input ~ span {
   position: absolute;
   left: 12px;
   top: 19px;
@@ -115,27 +159,35 @@ div.splash input ~ span {
   pointer-events: none;
 }
 
-div.splash input:focus {
+div.cta input:focus {
   padding-top: 19px;
   padding-bottom: 11px;
   color: #000;
 }
 
-div.splash input:focus ~ span {
+div.cta input:focus ~ span {
   top: 4px;
   font-size: 0.8rem;
 }
 
-div.splash button {
-  font-size: 1.625rem;
-  /* padding: 7.1px 20px; */
-  padding: 12px 26px;
+div.cta button {
+  font-size: 1rem;
+  padding: 10px 16px;
   background-color: #e50914;
   color: #fff;
+  border-radius: 4px;
   border: 0;
 }
 
-div.splash button:hover {
+@media screen and (min-width: 550px) {
+  div.cta button {
+    font-size: 1.625rem;
+    padding: 12px 26px;
+    border-radius: 0;
+  }
+}
+
+div.cta button:hover {
   background: #f40612;
 }
 
@@ -143,30 +195,45 @@ div.splash button:hover {
 
 section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 46px;
   padding: 70px 35px;
   align-items: center;
   background: #000;
   width: 100%;
   border-top: 8px solid #222;
+  text-align: center;
+}
+
+@media screen and (min-width: 550px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
 }
 
 section div.texts h1 {
-  font-size: 3.125rem;
+  font-size: 1.625rem;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 550px) {
+  section div.texts h1 {
+    font-size: 3.125rem;
+  }
+}
+
 section div.texts p {
-  font-size: 1.625rem;
+  font-size: 1rem;
   font-weight: 400;
 }
-/* 
-section div.texts, .section-text {
-   margin-left: 40px;
-} */
 
+@media screen and (min-width: 550px) {
+  section div.texts p {
+    font-size: 1.625rem;
+  }
+}
 
 .edit-text::before {
   content: "\a";
@@ -188,6 +255,12 @@ section div.texts, .section-text {
   left: 52px;
 }
 
+@media screen and (min-width: 550px) {
+  section:nth-child(even) div.texts {
+    order: 2;
+  }
+}
+
 section:nth-child(even) div.texts {
   order: 2;
 }
@@ -195,7 +268,6 @@ section:nth-child(even) div.texts {
 section div.media img.mobile {
   width: 480px;
   height: auto;
-  /* max-width: 100%; */
 }
 
 section div.download {
@@ -217,6 +289,110 @@ section div.download {
 }
 
 section div.download img {
-   height: 75px;
-   width: auto;
+  height: 75px;
+  width: auto;
+}
+
+section.last {
+  border-bottom: 8px solid #222;
+}
+
+div.faq {
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  height: 135vh;
+  width: 100%;
+  border-bottom: 8px solid #222;
+}
+
+div.faq {
+  padding: 70px 30px;
+}
+div.faq h1 {
+  font-size: 1.625rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 550px) {
+  div.faq h1 {
+    font-size: 3.125rem;
+  }
+}
+
+div.questions {
+  max-width: 635px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 550px) {
+  div.questions {
+    font-size: 1.625rem;
+  }
+}
+
+div.question {
+  position: relative;
+  background-color: #303030;
+  margin-bottom: 10px;
+}
+
+div.question svg {
+  width: 30px;
+  height: 30px;
+  right: 30px;
+  top: 20px;
+  position: absolute;
+  transform: rotate(45deg);
+  transition: all 0.2s ease;
+}
+
+div.question .header {
+  display: block;
+  padding: 20px 30px;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+div.question div.answer {
+  padding: 0 30px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+div.question input[type="checkbox"] {
+  display: none;
+}
+div.question input[type="checkbox"]:checked ~ div.answer {
+  padding: 30px 3px;
+  max-height: 600px;
+}
+
+div.question input[type="checkbox"]:checked ~ .header svg {
+  transform: rotate(0deg);
+}
+div.faq h3 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+div.faq form {
+  max-width: 635px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+div.faq form div + div {
+  text-align: center;
+}
+
+.footsection {
+  color: #737373;
+  background: #000;
+  height: 50vh;
+  width: 100%;
+  padding-bottom: 30px;
 }

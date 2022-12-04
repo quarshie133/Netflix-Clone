@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-.container {
+.drop {
   max-width: 1000px;
   margin-right: 1170px;
+  background: #000;
 }
 .row {
   display: flex;

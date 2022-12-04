@@ -1,10 +1,7 @@
 import React from "react";
 import "../styles/Cards.css";
-// import YouTube from "react-youtube";
-// import movieTrailer from "movie-trailer";
 
 function Cards({ movie, title }) {
-  // const [trailerUrl, setTrailerUrl] = useState();
 
 
   return (
@@ -16,7 +13,6 @@ function Cards({ movie, title }) {
           return (
             <div key={imdbID}>
               <img
-                // onClick={() => handleClick(movie)}
                 className="row__poster"
                 src={Poster}
                 alt={Title}
