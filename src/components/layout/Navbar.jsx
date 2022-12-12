@@ -1,10 +1,9 @@
 import React from "react";
 import logo from "../assests/logo.png";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 
 function Navbar() {
-const location = useLocation();
+
 
   return (
     <div className="nav">
